@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2023-07-28T22:32:57.771Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="b09XV_bncpuK1AJfS8WD" version="21.6.3" type="google">
+  <diagram name="Page-1" id="Tl2PnX8CX6BkAYBSqVCn">
+    <mxGraphModel dx="1053" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-49" value="Client" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="330" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-48" value="Client" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="450" y="340" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-21" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="160" y="240" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-6" value="Clients" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="350" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-16" value="Nyatify API" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="260" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-19" value="RabbitMQ API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="390" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-20" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="CEgs5CUAXWW-DwSwN2YL-19" target="CEgs5CUAXWW-DwSwN2YL-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="380" as="sourcePoint" />
+            <mxPoint x="470" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.014;entryY=0.551;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;" parent="1" source="CEgs5CUAXWW-DwSwN2YL-17" target="CEgs5CUAXWW-DwSwN2YL-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-17" value="REST API" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="350" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-32" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.214;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CEgs5CUAXWW-DwSwN2YL-17" target="CEgs5CUAXWW-DwSwN2YL-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="390" as="sourcePoint" />
+            <mxPoint x="520" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-33" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.011;entryY=0.785;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="CEgs5CUAXWW-DwSwN2YL-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="404.89" as="sourcePoint" />
+            <mxPoint x="530" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;" parent="1" source="CEgs5CUAXWW-DwSwN2YL-34" target="CEgs5CUAXWW-DwSwN2YL-38" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-34" value="Postgres" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="170" y="250" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CEgs5CUAXWW-DwSwN2YL-38" target="CEgs5CUAXWW-DwSwN2YL-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="205" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-38" value="Scheduler" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="170" y="350" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CEgs5CUAXWW-DwSwN2YL-41" value="RabbitMQ" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="250" y="380" width="70" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
